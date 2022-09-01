@@ -1,0 +1,35 @@
+select * from characters;
+select * from library;
+select lname from characters where lname like "%e";
+select sum(age) from characters;
+select fname, lname, age from characters order by age desc;
+select lname, age from characters where age between 50 and 100;
+select distinct age from characters;
+select * from characters where faculty = 'gryffindor' and age > 30;
+select distinct faculty from characters limit 3;
+select fname from characters where fname like "H____" or fname like "L%";
+select avg(age) from characters;
+delete from characters where char_id = 11;
+select lname from characters where lname like "%a%";
+select fname as Half_Blood_Prince from characters where fname = "Severus";
+select char_id, patronus from characters where not patronus = "Unknown" and patronus is not null order by patronus desc;
+select fname, lname from characters where lname in ("crabbe", "granger", "diggory");
+select min(age) from characters;
+select fname from characters union select book_name from library;
+select count(char_id), faculty from characters group by faculty having count(char_id) > 1;
+select fname, lname,
+case
+    when faculty = "Gryffindor" then'Godric'
+    when faculty = "Slytherin" then 'Salazar'
+    when faculty = "Ravenclaw" then 'Rowena'
+    when faculty = "Hufflepuff" then 'Helga'
+    else "Muggle"
+end as founders from characters;
+select lname from characters where not lname regexp "^[HLS]" ;
+select fname, lname, book_name from characters inner join library on characters.char_id = library.char_id;
+select fname, lname, book_name from characters right join library on characters.char_id = library.char_id;
+select book_name, patronus from characters left join library on characters.char_id = library.char_id;
+select fname, lname, age, book_name from characters inner join library on characters.char_id = library.char_id where age > 15;
+select lname, book_name, start_date, end_date from characters inner join library on characters.char_id = library.char_id where age <15 and patronus = "Unknown";
+select count(book_id) from library where end_date > (SELECT end_date from library where char_id = 6);
+select patronus from characters where age > (select age from characters where patronus = "Unknown");
