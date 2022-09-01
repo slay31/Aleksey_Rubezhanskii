@@ -1,4 +1,4 @@
-![Header](https://github.com/slay31/Aleksey_Rubezhanskii/Pic/QAlife2022(1).png)
+![Header](https://github.com/slay31/Aleksey_Rubezhanskii/blob/main/Pic/QAlife%202022(1).png)
 ## I'm a QA Junior. 
 
 
