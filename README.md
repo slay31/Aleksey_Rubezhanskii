@@ -1,4 +1,4 @@
-![Header](https://github.com/artichokeee/artichokeee/blob/main/assets/Frame%20635%20(3).png)
+![Header](https://github.com/slay31/Aleksey_Rubezhanskii/tree/main/Pic/QAlife2022(1).png)
 ## I'm a QA Junior. 
 
 
@@ -16,10 +16,7 @@
 ![Header](https://img.shields.io/badge/CharlesProxy-090909?style=for-the-badge&logo=charlesproxy&logoColor=8cc4d7)
 
 ### Follow Me
-[![Header](https://img.shields.io/badge/Youtube-090909?style=for-the-badge&logo=youtube&logoColor=f70000)](https://www.youtube.com/ArtsiomRusauQALife?sub_confirmation=1)
-[![Header](https://img.shields.io/badge/Instagram-090909?style=for-the-badge&logo=instagram&logoColor=9939a3)](https://www.instagram.com/rusau.qalife/)
-[![Header](https://img.shields.io/badge/Telegram-090909?style=for-the-badge&logo=telegram&logoColor=31a5db)](https://t.me/qachanell)
-[![Header](https://img.shields.io/badge/Twitter-090909?style=for-the-badge&logo=twitter&logoColor=1c96e8)](https://twitter.com/rusau_qa)
-[![Header](https://img.shields.io/badge/Linkedin-090909?style=for-the-badge&logo=linkedin&logoColor=0073b1)](https://www.linkedin.com/in/artsiomrusau/)
+
+[![Header](https://img.shields.io/badge/Telegram-090909?style=for-the-badge&logo=telegram&logoColor=31a5db)](https://t.me/slay31)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=slay31&show_icons=true&theme=radical)
